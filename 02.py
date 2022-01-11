@@ -7,7 +7,9 @@ devolver s,e,p,a,r,a,r
 >>> cad = "En un lugar de la Mancha"
 >>> separar(cad)
 'E,n, ,u,n, ,l,u,g,a,r, ,d,e, ,l,a, ,M,a,n,c,h,a'
-
+>>> cad = "En"
+>>> separar(cad)
+'E,n'
 """
 
 
