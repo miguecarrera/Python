@@ -10,6 +10,14 @@ devolver s,e,p,a,r,a,r
 >>> cad = "En"
 >>> separar(cad)
 'E,n'
+
+>>> cad = "En un lugar de la Mancha"
+>>> separar_2(cad, 2)
+'E,n, un lugar de la Mancha'
+
+>>> cad = "En un lugar de la Mancha"
+>>> separar_2(cad, 200)
+'E,n, ,u,n, ,l,u,g,a,r, ,d,e, ,l,a, ,M,a,n,c,h,a'
 """
 
 
@@ -18,6 +26,22 @@ def separar(cad):
     for letra in cad:
         salida += letra + ","
     return salida[:-1]
+
+def separar_2(cad, num):
+    salida = ""
+    contador = 0
+    for letra in cad:
+        if(contador >= num):
+            salida += letra
+        else:
+            salida += letra + ","
+            contador+=1
+    
+    if(len(cad)< num):
+        return salida[:-1]
+    else:
+        return salida
+
 
 
 
