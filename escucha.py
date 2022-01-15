@@ -1,14 +1,15 @@
 import pyttsx3
 import datetime
 import speech_recognition as sr
-engine = pyttsx3.init('sapi5')
+import wikipedia
+engine = pyttsx3.init()
 
 voices = engine.getProperty('voices')
 
-#print(voices)
+print(voices)
 
-engine.setProperty('voice', voices[0].id)
-#print(voices[0].id)
+engine.setProperty('voice', voices[1].id)
+print(voices[2].id)
 
 author = "Miguel"
 
@@ -48,6 +49,15 @@ def takecommand():
     return query
 
 if __name__ == "__main__":
-    #speak(f"Bienvenido {author}, Me llamo Jarvis")
+    speak(f"Bienvenido {author}, Me llamo Jarvis")
     #wishMe()
-    takecommand()
+    #takecommand()
+    #if 1:
+    #    query = takecommand().lower()
+    #    if 'wikipedia' and 'who' in query:
+    #        speak("Searching Wikipedia...")
+    #        query = query.replace("wikipedia", "")
+    #        results = wikipedia.summary(query, sentences = 2)
+    #        speak("According to wikipedia")
+    #        print(results)
+    #        speak(results)
