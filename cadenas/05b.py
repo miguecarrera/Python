@@ -9,5 +9,17 @@ ejemplo, si recibe 'república argentina' debe devolver 'República Argentina'.
 >>> mayus(cad)
 'Republica Argentina'
 
+>>> mayus('La confianza pública en ellos tendrá que ser destruida '\
+          'completamente para acabar realmente con ellos')
+'La Confianza Pública En Ellos Tendrá Que Ser Destruida Completamente\
+ Para Acabar Realmente Con Ellos'
 """
 
+def mayus(cad):
+    upper = cad.title()
+    return upper
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
