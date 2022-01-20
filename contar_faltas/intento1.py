@@ -5,7 +5,7 @@ import urllib.request
 url = 'https://seneca.juntadeandalucia.es/seneca/jsp/portal/'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
 values = {'usuario': 'mcarceb395',
-          'clave_p': 'miguecarr3r-',
+          'clave_p': 'hola',
           'language': 'Python' }
 headers = {'User-Agent': user_agent}
 
