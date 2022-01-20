@@ -5,7 +5,7 @@ el valor máximo y mínimo de entre ellos y acaba con la palabra "done". Hacerlo
 ahora almacenando los números en una lista y hacer uso de la funciones max() y
 min().
 
->>> lista = (1,5,2,7,9,84,36,45,87,56)
+>>> lista = [1,5,2,7,9,84,36,45,87,56]
 >>> numeros(lista)
 (87, 1)
 
@@ -40,8 +40,6 @@ def introducirNumeros():
                 continue
             lista.append(numero)
     return numeros(lista)
-
-
 
 
 
