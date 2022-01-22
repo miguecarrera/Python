@@ -6,10 +6,10 @@ diccionario. No importan los valores.
 Posteriormente leer palabras desde teclado y utilizar el operador in como una
 forma rápida de comprobar si las palabras están dentro del diccionario o no.
 
->>> buscarPalabras("C:/Users/Miguel/Documents/miguel/Python/Diccionario/words.txt")
+>>> buscarPalabras("Diccionario\words.txt")
 True
 
->>> buscarPalabras("C:/Users/Miguel/Documents/miguel/Python/Diccionario/words.txt")
+>>> buscarPalabras("Diccionario\words.txt")
 False
 
 """

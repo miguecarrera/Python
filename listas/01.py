@@ -7,7 +7,7 @@ lista de palabras usando la función split. Las palabras no deben estar
 repetidas en la lista. Cuando la lista esté completa, visualizar el resultado
 en orden alfabético.
 
->>> fichero ="C:/Users/Miguel/Documents/miguel/Python/listas/romeo.txt"
+>>> fichero ="C:/Users/migue/Documents/MEGA/Datos/Python/listas/romeo.txt"
 >>> separaPalabras(fichero)
 ['already', 'and', 'arise', 'breaks', 'but', 'east', 'envious', 'fair', 'grief', 'is', 'it', 'juliet', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'who', 'window', 'with', 'yonder']
 
